@@ -39,7 +39,7 @@ ALLOWED_ACTIONS = [
 ]
 
 # ---- provider selection -----------------------------------------------
-LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "ollama").lower()
+LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "groq").lower()
 
 # Free/local default. Any Ollama-pulled instruct model works; llama3.1 is a
 # solid, small, fast default. Override with OLLAMA_MODEL if you pulled
